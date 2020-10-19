@@ -138,7 +138,12 @@ def shoe_size(player_name)
 end
 
 def team_colors(team_name)
-
+  team = team_name
+  if team == game_hash[:home][:team_name]
+    game_hash[:home][:colors]
+  elsif team == game_hash[:away][:team_name]
+    game_hash[:away][:colors]
+  end
 end
 
 def player_numbers (team_name)
@@ -150,5 +155,5 @@ def player_stats (player_name)
 end
 
 def big_shoe_rebounds
-  
+
 end
