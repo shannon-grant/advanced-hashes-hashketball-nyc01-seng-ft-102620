@@ -130,5 +130,25 @@ end
 
 # Write code here
 def num_points_scored(player_name)
+
+end
+
+def shoe_size(player_name)
+
+end
+
+def team_colors(team_name)
+
+end
+
+def player_numbers (team_name)
+
+end
+
+def player_stats (player_name)
+
+end
+
+def big_shoe_rebounds
   
 end
