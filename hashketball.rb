@@ -130,7 +130,7 @@ end
 
 # Write code here
 def num_points_scored(player_name)
-  
+
 end
 
 def shoe_size(player_name)
@@ -146,6 +146,11 @@ def team_colors(team_name)
   end
 end
 
+def team_names
+  team_array = []
+  team_array.push(game_hash[:home][:team_name], game_hash[:away][:team_name])
+end
+
 def player_numbers (team_name)
 
 end
@@ -155,5 +160,5 @@ def player_stats (player_name)
 end
 
 def big_shoe_rebounds
-  player =
+  
 end
