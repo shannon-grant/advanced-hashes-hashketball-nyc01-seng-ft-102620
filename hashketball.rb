@@ -130,7 +130,7 @@ end
 
 # Write code here
 def num_points_scored(player_name)
-
+  
 end
 
 def shoe_size(player_name)
@@ -155,5 +155,5 @@ def player_stats (player_name)
 end
 
 def big_shoe_rebounds
-
+  player =
 end
