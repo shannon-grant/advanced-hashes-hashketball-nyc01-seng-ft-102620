@@ -164,7 +164,7 @@ end
 def player_numbers (team_name)
   jersey_array = []
 
-  team_name.map do |player|
+  .map do |player|
     binding.pry
   end
 end
