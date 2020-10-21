@@ -162,8 +162,11 @@ def team_names
 end
 
 def player_numbers (team_name)
-  team = team_name
-  team
+  jersey_array = []
+
+  .map do |player|
+    binding.pry
+  end
 end
 
 def player_stats (player_name)
